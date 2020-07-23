@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+  font-family: 'Roboto', sans-serif;
+  color: rgb(66,69,86);
+  background-image: url('https://miro.medium.com/max/3780/1*6azqUQZS_S3YZqi_gX4Tvw.jpeg');
+  background-size: cover;
+  font-weight: 100;
+}
+
+h1{
+  margin: 0;
+  font-size: 150px;
+  line-height: 400px;
+  font-weight: 100;
+}
+
+p {
+  margin: 0;
+  font-size: 30px;
+}
+form {
+	line-height: 1.5;
+	text-align: center;
+	border: none;
+	 border-bottom: 3px solid #ebebeb;
+	margin-top: 100px;
+	width: 700px;
+	font-size: 2.9em;
+	color: white;
+	padding: 10px 400px;
+	background: transparent; 
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(255,255,255,0.8);
+}
+input[type=text]:focus {
+  outline: none;
+}
+
+button:hover{
+  opacity: 1;
+}
